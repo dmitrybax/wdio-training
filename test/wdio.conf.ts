@@ -5,6 +5,17 @@ const { join } = require('path');
 const video = require('wdio-video-reporter');
 const { TimelineService } = require('wdio-timeline-reporter/timeline-service');
 
+module.exports = {
+    // ...
+    reporters: [
+        'dot',
+        ['junit', {
+            outputDir: './'
+        }]
+    ],
+    // ...
+}
+
 
 
 export const config: Options.Testrunner = {
