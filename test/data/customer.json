@@ -1,0 +1,15 @@
+{
+    "checkout": {
+        "firstName":"Dmitry",
+        "lastName":"Ivanov",
+        "Email":"dmitry.ivanov@blueacornici.com",
+        "Address":"333 E Trade St",
+        "City":"Charlotte",
+        "State":"North Carolina",
+        "Zip":"28202",
+        "Phone":"704 000 0000",
+        "CreditCard": "4111 1111 1111 1111",
+        "ExpirationDate": "12/2025",
+        "CVV": "404"
+    }
+}

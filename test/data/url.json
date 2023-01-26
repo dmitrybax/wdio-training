@@ -1,0 +1,6 @@
+{ "magento":{
+        "sandbox":"https://stage-sandbox.m2cloud.blueacorn.net/",
+        "prod":"https://google.com"
+        
+    }
+}
