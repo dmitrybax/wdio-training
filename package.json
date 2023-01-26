@@ -20,6 +20,7 @@
     "dependencies": {
         "@types/jquery": "^3.5.14",
         "@wdio/selenium-standalone-service": "^7.19.1",
+        "node-fetch": "^2.6.1",
         "selenium-standalone": "^8.0.10",
         "wdio-image-comparison-service": "^3.1.1",
         "wdio-timeline-reporter": "^5.1.4",
