@@ -5,17 +5,6 @@ const { join } = require('path');
 const video = require('wdio-video-reporter');
 const { TimelineService } = require('wdio-timeline-reporter/timeline-service');
 
-module.exports = {
-    // ...
-    reporters: [
-        'dot',
-        ['junit', {
-            outputDir: './'
-        }]
-    ],
-    // ...
-}
-
 
 
 export const config: Options.Testrunner = {
@@ -223,6 +212,9 @@ export const config: Options.Testrunner = {
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter
     reporters: ['spec',
+    ['junit', {
+        outputDir: './'
+    }],
     [video, {
         saveAllVideos: true,       // If true, also saves videos for successful test cases
         videoSlowdownMultiplier: 40, // Higher to get slower videos, lower for faster videos [Value 1-100]
